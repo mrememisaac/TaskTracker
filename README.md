@@ -126,8 +126,8 @@ For more examples, please refer to the [Documentation](https://tasktracker.ememi
     - [x] Add Readme
     - [x] Add License
     - [ ] Add Architectural Diagrams
-    - [ ] Setup Project Management (Trello)
-    - [ ] Create Issues
+    - [x] Setup Project Management (Trello)
+    - [ ] Create Issues (Tasks)
 - [ ] Implement Features
     - [ ] Task Management
         - [ ] Create Task
@@ -204,6 +204,7 @@ Distributed under the Apache License 2.0. See `LICENSE.txt` for more information
 ## Contact
 
 Project Link: [https://github.com/mrememisaac/TaskTracker](https://github.com/mrememisaac/TaskTracker)
+Project Management: [https://trello.com/b/z2Uo42WF/task-tracker](https://trello.com/b/z2Uo42WF/task-tracker)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -219,6 +220,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
 * [Logo](https://www.freepik.com)
+* [Trello](https://www.trello.com)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
