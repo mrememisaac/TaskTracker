@@ -87,27 +87,43 @@ public class TaskCreate
     }
 
     [Fact]
+    public void NewTaskIsByDefaultNotCompleted()
+    {
+        var task = new Task(_taskName, _taskCreatorId);
+        Assert.False(task.IsComplete);
+    }
+
+    [Fact]
     public void CanMarkTaskComplete()
     {
         var task = new Task(_taskName, _taskCreatorId);
-        
+        Assert.False(task.IsComplete);
+        task.Complete();
+        Assert.True(task.IsComplete);
     }
 
     [Fact]
     public void CanReOpenCompletedTask()
     {
-
+        var task = new Task(_taskName, _taskCreatorId);
+        task.Complete();
+        Assert.True(task.IsComplete);
+        task.ReOpen();
+        Assert.False(task.IsComplete);
     }
-
-    [Fact]
-    public void NewTaskIsByDefaultNotCompleted()
-    {
-
-    }
+    
 
     [Fact]
     public void NewTaskHasCreateDateEqualToCurrentTime()
     {
+        var task = new Task(_taskName, _taskCreatorId);
+        Assert.Equal(DateTimeOffset.Now.Year, task.CreateDate.Year);
+        Assert.Equal(DateTimeOffset.Now.Month, task.CreateDate.Month);
+        Assert.Equal(DateTimeOffset.Now.Day, task.CreateDate.Day);
+        Assert.Equal(DateTimeOffset.Now.Hour, task.CreateDate.Hour);
+        Assert.Equal(DateTimeOffset.Now.Minute, task.CreateDate.Minute);
+        Assert.Equal(DateTimeOffset.Now.Second, task.CreateDate.Second);
+
 
     }
 }
