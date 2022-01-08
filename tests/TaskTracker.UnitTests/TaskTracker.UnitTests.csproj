@@ -22,13 +22,16 @@
 
   <ItemGroup>
     <Folder Include="ApplicationCore\Entities\AssigneeTests\" />
-    <Folder Include="ApplicationCore\Entities\TaskTests\" />
     <Folder Include="ApplicationCore\Extensions\" />
     <Folder Include="ApplicationCore\Services\TaskServiceTests\" />
     <Folder Include="ApplicationCore\Specifications\" />
     <Folder Include="Builders\" />
     <Folder Include="MediatorHandlers\" />
     <Folder Include="Web\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TaskTracker.ApplicationCore\TaskTracker.ApplicationCore.csproj" />
   </ItemGroup>
 
 </Project>
