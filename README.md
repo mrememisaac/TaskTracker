@@ -12,18 +12,18 @@
 <br />
 <div align="center">
   <a href="https://github.com/mrememisaac/TaskTracker/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Task Tracker</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A Task Tracking App
     <br />
-    <a href="https://tasktracker.ememisaac.com"><strong>Explore the docs »</strong></a>
+    <a href="#" future="https://tasktracker.ememisaac.com"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://tasktracker.ememisaac.com">View Demo</a>
+    <a href="#" future="https://tasktracker.ememisaac.com">View Demo</a>
     ·
     <a href="https://github.com/mrememisaac/TaskTracker/issues">Report Bug</a>
     ·
@@ -69,14 +69,7 @@
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [ASP.NET](https://asp.net/)
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
 * [Bootstrap](https://getbootstrap.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -85,7 +78,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -113,7 +105,7 @@ None if you are running it in Docker, else you will need an instance of SQL Serv
 
 This space will show useful examples of how this project can be used. Including screenshots, code examples and demos were applicable.
 
-For more examples, please refer to the [Documentation](https://tasktracker.ememisaac.com)_
+For more examples, please refer to the [Documentation](https://github.com/mrememisaac/TaskTracker/)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -214,8 +206,6 @@ Project Management: [https://trello.com/b/z2Uo42WF/task-tracker](https://trello.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [Choose an Open Source License](https://choosealicense.com)
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
@@ -227,4 +217,4 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: screenshot.png
