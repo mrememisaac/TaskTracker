@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/mrememisaac/TaskTracker/">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.PNG" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Task Tracker</h3>
@@ -78,7 +78,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
@@ -195,7 +195,7 @@ Distributed under the Apache License 2.0. See `LICENSE.txt` for more information
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/mrememisaac/TaskTracker](https://github.com/mrememisaac/TaskTracker)
+Project Link: [https://github.com/mrememisaac/TaskTracker](https://github.com/mrememisaac/TaskTracker)  
 Project Management: [https://trello.com/b/z2Uo42WF/task-tracker](https://trello.com/b/z2Uo42WF/task-tracker)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -217,4 +217,4 @@ Project Management: [https://trello.com/b/z2Uo42WF/task-tracker](https://trello.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: screenshot.png
+[product-screenshot]: screenshot.PNG
