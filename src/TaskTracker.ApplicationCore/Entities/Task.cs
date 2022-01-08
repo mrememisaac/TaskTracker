@@ -21,6 +21,7 @@ public class Task : BaseEntity
         DueDate = dueDate != null && dueDate <= DateTimeOffset.Now ? throw new ArgumentOutOfRangeException($"{nameof(dueDate)} cannot be in the past") : dueDate;
         AssigneeId = assigneeId != null ? Guard.Against.NullOrWhiteSpace(Guard.Against.NullOrEmpty(assigneeId, nameof(assigneeId)), nameof(assigneeId)) : null;
         IsComplete = false;
+        CreateDate = DateTimeOffset.Now;
     }
 
     public string Name { get; private set; }
@@ -28,6 +29,7 @@ public class Task : BaseEntity
     public string CreatorId { get; private set; }
     public bool? IsUrgent { get; private set; }
     public bool IsComplete { get; private set; }
+    public DateTimeOffset CreateDate { get; private set; }
     public DateTimeOffset? DueDate { get; private set; }
     public string? AssigneeId { get; private set; }
 
